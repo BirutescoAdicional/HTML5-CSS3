@@ -1,0 +1,20 @@
+@charset "UTF=8";
+
+body {
+    background-color: aquamarine;
+    font-family: Arial;
+    font-size: 20px;
+}
+h1 {
+    color:rgb(255, 255, 255);
+    background-color: aqua;
+    text-align: center;
+}
+h2 {
+    color:cornflowerblue;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    color:darkslategray;
+}
