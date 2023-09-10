@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         input#iusu, input#isen {
+        border-radius: 50px;
+        width: 200px;
+        height: 20px;
+    }
+
+    #enviar, #limpar {
+        width: 70px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: rgb(95, 95, 95);
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="nome do usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" placeholder="senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar" id="enviar">
+            <input type="reset" value="Limpar" id="limpar">
+        </p>
+    </form>
+</body>
+</html>
