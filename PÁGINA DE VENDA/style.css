@@ -1,0 +1,187 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: Under;
+    src: url(fontes/Under\ Station.otf) format('opentype');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+    main {
+        
+    }
+
+    header {
+        background-color: rgb(55, 81, 228);
+        padding: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0px -100px;
+        margin-bottom: 40px;
+    }
+
+    body {
+        background-color: rgb(0, 22, 148);
+    }
+
+    #roupa-termica {
+        columns: 2;
+    }
+
+img#roupa-termica1 {
+   padding-bottom: 40px;
+   width: 500px;
+   display: block;
+   margin: 0px auto;
+   border-radius: 10px;
+}
+
+#imagem-roupa-termica {
+   
+}
+
+.vantagens-lista {
+    position: relative;
+    top: 50px;
+    left: -140px;
+    
+}
+
+ul {
+    margin-left: 370px;
+}
+
+li {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#foto-depoimento1 {
+    width: 100px;
+
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 40px;
+    padding-top: 40px
+}
+
+#foto-depoimento2 {
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+
+button {
+    display: block;
+    margin: 0px auto;
+    padding: 10px 40px 10px 30px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+    color: black;
+    width: 120px;
+    cursor: pointer;
+}
+
+#satisfacao {
+    font-weight: bold;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+#fundo-outra-cor {
+    background-color: white;
+    margin: 0px -20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.depoimento1 {
+    padding: 30px 0px 0px 0px;
+}
+
+#hr {
+    margin: 40px 200px;
+    border-color: rgba(0, 0, 0, 0.425);
+}
+
+#depoimento2 {
+    padding: 30px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fonte-destaque {
+    font-family: Under;
+    color: black;
+}
+
+#condicao-especial {
+    margin-bottom: 30px;
+    color: white;
+}
+
+#condicao-titulo {
+    margin: 50px;
+    font-size: 40px;
+}
+
+#lista-condicao {
+    position: relative;
+    left: 150px;
+}
+
+#satisfacao-inteira {
+    margin-top: 30px;
+    color: rgb(250, 248, 124);
+}
+
+#unidade-limitade {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#titulo-garantia {
+    padding-bottom: 40px;
+    font-size: 40px
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 50px;
+    padding-bottom: 100px;
+    
+    margin: -30px;
+    margin-top: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
