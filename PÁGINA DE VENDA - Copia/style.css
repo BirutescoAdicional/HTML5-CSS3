@@ -1,0 +1,79 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgba(73, 73, 252, 0.575);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+}
+
+.logo-imagem {
+    height: 60px;
+    width: 250px;
+}
+
+.botoes {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.botao1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px 25px;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.616);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background: rgb(128, 151, 255);
+    border: none;
+    border-radius: 7px;
+}
+
+#ipesquisa {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 290px;
+    width: 600px;
+    height: 20px;
+    font-size: 17px;
+    padding: 7px;
+}
+
+.linha-vertical {
+    position: absolute;
+    top: 35px;
+    left: 860px;
+    height: 27px;
+    border-right: 1px solid rgba(0, 0, 0, 0.300);
+}
+
+.lupa {
+    height: 24px;
+    position: absolute;
+    top: 36px;
+    left: 871px;
+
+}
+
+.botao-lupa {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    height: ;
+}

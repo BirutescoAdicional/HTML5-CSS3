@@ -135,6 +135,7 @@ h2 {
 #fonte-destaque {
     font-family: Under;
     color: black;
+    letter-spacing: 1px;
 }
 
 #condicao-especial {
